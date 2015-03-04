@@ -8,7 +8,6 @@
 
 <p>It is released under the <i>Do What the Fuck You Want to Public License</i>.</p>
 
-<p><a href="project/pbmjs/js/PBM.js"><button type="button" class="btn">Download PBMjs</button></a><br />
 <br />
 <a href="http://www.wtfpl.net/"><img
        src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
