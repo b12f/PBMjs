@@ -1,6 +1,6 @@
 /*
-		PBM.js by Benjamin Baedorf
-		www.benjaminbaedorf.com
+	PBM.js by Benjamin Baedorf
+	www.benjaminbaedorf.com
 */
 (function(){
 	'use strict';
@@ -106,7 +106,7 @@
 	var render = function(pbm, target, type)	{
 		//remove comments
 		pbm = pbm.replace(/^#.*$/gmi,"").replace(/^\s+/,"");
-		
+
 		var i=1;
 
 		//slice all non-pixel data off
@@ -116,7 +116,7 @@
 
 			//convert the file into an array
 			hwdata = hwdata.split(" ");
-			
+
 			var w = hwdata[i++];
 			var h = hwdata[i++];
 
@@ -172,7 +172,7 @@
 
 		var ctx = canvas.getContext('2d');
 		imageData[target.src] = ctx.createImageData(w,h);
-		
+
 		target.style.display = "none";
 		parent.insertBefore(canvas, target);
 
@@ -258,7 +258,7 @@
 					data.push(px);
 					c = px.index;
 				}
-				catch(e){ //The image is corrupted and alwaysRender is not enabled. Skip this image and continue to the next one. 
+				catch(e){ //The image is corrupted and alwaysRender is not enabled. Skip this image and continue to the next one.
 					console.log(e);
 					c = rounds;
 					succeeded = false;
