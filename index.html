@@ -1,0 +1,46 @@
+<html class="no-js" lang="en_US">
+<head>
+	<title>PBM viewer demo</title>
+    <meta charset="UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet" type="text/css" />
+	<style>
+	body {
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+	}
+	.wrap {
+		margin: 40px auto;
+		width: 90%;
+	}
+	.wrap h1, .wrap p {
+		text-align: left;
+	}
+	img {
+		max-width: 100%;
+	}
+	</style>
+	<script>
+		document.getElementsByTagName("html")[0].removeAttribute("class");
+	</script>
+</head>
+<body>
+<div class="wrap">
+	<h1>PBMjs Demo</h1>
+	<p>Loading of images might take a while because of PBM filesizes. The removal of the img tag marks the start of the rendering process.</p>
+	<p>Information and documentation can be found <a href="http://playground.benjaminbaedorf.com/#pbmjs/1">here</a>.</p>
+	<h2>PPM</h2>
+	<hr />
+	<img src="img/koeien.ppm" /> <br />
+	<h2>PGM</h2>
+	<hr />
+	<img src="img/koeien.pgm" /> <br />
+	<h2>PBM</h2>
+	<hr />
+	<img src="img/koeien.pbm" /> <br />
+</div>
+	<script type="application/javascript" src="js/PBM.js"></script>
+</body>
+</html>
