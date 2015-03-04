@@ -2,7 +2,7 @@
 
 <p>PBMjs automatically finds all <code>img</code> tags with a pbm as source and puts a canvas element in place displaying the specified resource, even when elements get dynamically added. PBMjs supports P1, P2 and P3 (pbm, pgm and ppm) using mime-type recognition. Because of missing 'Access-Control-Allow-Origin' headers on most external images you are going to request images might not be able to load. Check the console for errors and request the image from your own domain.</p>
 
-<p>Currently only ASCII format images are supported. Because of that, it will probably never be used in production because of bandwidth usage.</p>
+<p>Currently only ASCII format images are supported.</p>
 
 <p>Supported are all <a href="http://caniuse.com/#feat=mutationobserver" title="CanIuse Mutation Observer">modern browsers (IE 11 and up)</a> if you want to watch for changes in the DOM. For run-once use, <a href="http://caniuse.com/#feat=canvas" title="CanIuse Canvas">IE9+ is supported</a></p>
 
